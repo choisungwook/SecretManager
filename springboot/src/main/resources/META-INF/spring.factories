@@ -1,0 +1,1 @@
+org.springframework.boot.BootstrapRegistryInitializer=com.secretmanager.secretmanagerdemo.SecretsManagerBootstrapConfiguration,com.secretmanager.secretmanagerdemo.GetSecretValueRequestBootstrapConfiguration
