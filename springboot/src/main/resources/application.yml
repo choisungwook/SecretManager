@@ -1,0 +1,6 @@
+# reference: https://github.com/awspring/spring-cloud-aws/blob/2.3.x/spring-cloud-aws-samples/spring-cloud-aws-secrets-manager-sample/src/main/resources/application.yml
+spring:
+  config:
+    import: aws-secretsmanager:/secret/dev
+
+logging.level.io.awspring.cloud.secretsmanager: debug
